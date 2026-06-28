@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import TrustedBy from "./components/TrustedBy";
 import Features from "./components/Features";
 import HowItWorks from "./components/HowItWorks";
+import FAQ from "./components/FAQ";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <TrustedBy />
       <Features />
       <HowItWorks />
+      <FAQ />
     </>
   );
 }
