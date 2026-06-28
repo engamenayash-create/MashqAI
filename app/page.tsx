@@ -4,6 +4,7 @@ import TrustedBy from "./components/TrustedBy";
 import Features from "./components/Features";
 import HowItWorks from "./components/HowItWorks";
 import FAQ from "./components/FAQ";
+import CTA from "./components/CTA";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Features />
       <HowItWorks />
       <FAQ />
+      <CTA />
     </>
   );
 }
